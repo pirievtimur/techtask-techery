@@ -1,0 +1,41 @@
+PODS:
+  - Kiwi (2.4.0)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - Masonry (1.0.2)
+  - Reachability (3.2)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - Kiwi
+  - Mantle
+  - Masonry
+  - Reachability (from `http://github.com/tonymillion/Reachability.git`)
+  - ReactiveCocoa (= 2.5)
+
+EXTERNAL SOURCES:
+  Reachability:
+    :git: http://github.com/tonymillion/Reachability.git
+
+CHECKOUT OPTIONS:
+  Reachability:
+    :commit: f367935c6c5ad32755e1fc8267d5589be79d0968
+    :git: http://github.com/tonymillion/Reachability.git
+
+SPEC CHECKSUMS:
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  Reachability: a439150119232b740e0b708aed6760a5965b858d
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+
+PODFILE CHECKSUM: c9fe354da9f9e12322ab3ca2b484e8133bd104d6
+
+COCOAPODS: 1.1.0.rc.2

@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		710D18EA1E45CB8C00ACC53F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710D18E91E45CB8C00ACC53F /* SystemConfiguration.framework */; };
+		710D18EE1E45F35C00ACC53F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710D18ED1E45F35C00ACC53F /* RootViewController.m */; };
+		71168EE01E37E98800F586A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71168EDF1E37E98800F586A7 /* main.m */; };
+		71168EE31E37E98800F586A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71168EE21E37E98800F586A7 /* AppDelegate.m */; };
+		71168EEC1E37E98800F586A7 /* techtask_techery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71168EEA1E37E98800F586A7 /* techtask_techery.xcdatamodeld */; };
+		71168EEE1E37E98800F586A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71168EED1E37E98800F586A7 /* Assets.xcassets */; };
+		71168EF11E37E98800F586A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71168EEF1E37E98800F586A7 /* LaunchScreen.storyboard */; };
+		7188E6741E49ED3600CFB0A9 /* techtask_techeryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7188E6731E49ED3600CFB0A9 /* techtask_techeryTests.m */; };
+		7195A6191E3B5FB400F763D7 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7195A6181E3B5FB400F763D7 /* FeedViewController.m */; };
+		7195A61E1E3B600500F763D7 /* TwitterService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7195A61D1E3B600500F763D7 /* TwitterService.m */; };
+		7195A6211E3B718700F763D7 /* TweetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7195A6201E3B718700F763D7 /* TweetModel.m */; };
+		7195A6251E3B876A00F763D7 /* TweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7195A6241E3B876A00F763D7 /* TweetCell.m */; };
+		7195A6291E3B8C1600F763D7 /* TwitterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7195A6281E3B8C1600F763D7 /* TwitterViewModel.m */; };
+		B8250C7F410E43AE4EE34D16 /* libPods-techtask-techeryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFD8051E9447267B640FA70 /* libPods-techtask-techeryTests.a */; };
+		ECACDDFA9277D2F2E88B478C /* libPods-techtask-techery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED771F2DF3929EE72F5A7855 /* libPods-techtask-techery.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7188E6761E49ED3600CFB0A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71168ED31E37E98800F586A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71168EDA1E37E98800F586A7;
+			remoteInfo = "techtask-techery";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186BD4A4AC7834C6686E2705 /* Pods-techtask-techery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-techtask-techery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-techtask-techery/Pods-techtask-techery.debug.xcconfig"; sourceTree = "<group>"; };
+		2DE243626372863EDAA737ED /* Pods-techtask-techery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-techtask-techery.release.xcconfig"; path = "Pods/Target Support Files/Pods-techtask-techery/Pods-techtask-techery.release.xcconfig"; sourceTree = "<group>"; };
+		38189C6F316FE813520ED893 /* Pods-techtask-techeryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-techtask-techeryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-techtask-techeryTests/Pods-techtask-techeryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FFD8051E9447267B640FA70 /* libPods-techtask-techeryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-techtask-techeryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		710D18E91E45CB8C00ACC53F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		710D18EC1E45F35C00ACC53F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		710D18ED1E45F35C00ACC53F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		71168EDB1E37E98800F586A7 /* techtask-techery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "techtask-techery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71168EDF1E37E98800F586A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71168EE11E37E98800F586A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71168EE21E37E98800F586A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71168EEB1E37E98800F586A7 /* techtask_techery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = techtask_techery.xcdatamodel; sourceTree = "<group>"; };
+		71168EED1E37E98800F586A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71168EF01E37E98800F586A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71168EF21E37E98800F586A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7188E6711E49ED3600CFB0A9 /* techtask-techeryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "techtask-techeryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7188E6731E49ED3600CFB0A9 /* techtask_techeryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = techtask_techeryTests.m; sourceTree = "<group>"; };
+		7188E6751E49ED3600CFB0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7195A6171E3B5FB400F763D7 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		7195A6181E3B5FB400F763D7 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		7195A61C1E3B600500F763D7 /* TwitterService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterService.h; sourceTree = "<group>"; };
+		7195A61D1E3B600500F763D7 /* TwitterService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterService.m; sourceTree = "<group>"; };
+		7195A61F1E3B718700F763D7 /* TweetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetModel.h; sourceTree = "<group>"; };
+		7195A6201E3B718700F763D7 /* TweetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetModel.m; sourceTree = "<group>"; };
+		7195A6231E3B876A00F763D7 /* TweetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetCell.h; sourceTree = "<group>"; };
+		7195A6241E3B876A00F763D7 /* TweetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetCell.m; sourceTree = "<group>"; };
+		7195A6271E3B8C1600F763D7 /* TwitterViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewModel.h; sourceTree = "<group>"; };
+		7195A6281E3B8C1600F763D7 /* TwitterViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewModel.m; sourceTree = "<group>"; };
+		DAFB987C40E328471866584B /* Pods-techtask-techeryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-techtask-techeryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-techtask-techeryTests/Pods-techtask-techeryTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED771F2DF3929EE72F5A7855 /* libPods-techtask-techery.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-techtask-techery.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71168ED81E37E98800F586A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710D18EA1E45CB8C00ACC53F /* SystemConfiguration.framework in Frameworks */,
+				ECACDDFA9277D2F2E88B478C /* libPods-techtask-techery.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7188E66E1E49ED3600CFB0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8250C7F410E43AE4EE34D16 /* libPods-techtask-techeryTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ACF322D5DE69A0534C44EE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				710D18E91E45CB8C00ACC53F /* SystemConfiguration.framework */,
+				ED771F2DF3929EE72F5A7855 /* libPods-techtask-techery.a */,
+				5FFD8051E9447267B640FA70 /* libPods-techtask-techeryTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		710D18EB1E45F32200ACC53F /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				710D18EC1E45F35C00ACC53F /* RootViewController.h */,
+				710D18ED1E45F35C00ACC53F /* RootViewController.m */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		71168ED21E37E98800F586A7 = {
+			isa = PBXGroup;
+			children = (
+				71168EDD1E37E98800F586A7 /* techtask-techery */,
+				7188E6721E49ED3600CFB0A9 /* techtask-techeryTests */,
+				71168EDC1E37E98800F586A7 /* Products */,
+				76945C249E1F197103DC78E2 /* Pods */,
+				1ACF322D5DE69A0534C44EE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71168EDC1E37E98800F586A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71168EDB1E37E98800F586A7 /* techtask-techery.app */,
+				7188E6711E49ED3600CFB0A9 /* techtask-techeryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71168EDD1E37E98800F586A7 /* techtask-techery */ = {
+			isa = PBXGroup;
+			children = (
+				71168EF81E37EA5200F586A7 /* Classes */,
+				71168EE11E37E98800F586A7 /* AppDelegate.h */,
+				71168EE21E37E98800F586A7 /* AppDelegate.m */,
+				71168EED1E37E98800F586A7 /* Assets.xcassets */,
+				71168EEF1E37E98800F586A7 /* LaunchScreen.storyboard */,
+				71168EF21E37E98800F586A7 /* Info.plist */,
+				71168EEA1E37E98800F586A7 /* techtask_techery.xcdatamodeld */,
+				71168EDE1E37E98800F586A7 /* Supporting Files */,
+			);
+			path = "techtask-techery";
+			sourceTree = "<group>";
+		};
+		71168EDE1E37E98800F586A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71168EDF1E37E98800F586A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71168EF81E37EA5200F586A7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7195A6261E3B8BEB00F763D7 /* ViewModel */,
+				7195A61A1E3B5FF100F763D7 /* Models */,
+				7195A61B1E3B5FF100F763D7 /* Services */,
+				7195A6221E3B84F700F763D7 /* Views */,
+				71168EF91E37EA5200F586A7 /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		71168EF91E37EA5200F586A7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				710D18EB1E45F32200ACC53F /* RootViewController */,
+				7195A6161E3B5F9700F763D7 /* FeedViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7188E6721E49ED3600CFB0A9 /* techtask-techeryTests */ = {
+			isa = PBXGroup;
+			children = (
+				7188E6731E49ED3600CFB0A9 /* techtask_techeryTests.m */,
+				7188E6751E49ED3600CFB0A9 /* Info.plist */,
+			);
+			path = "techtask-techeryTests";
+			sourceTree = "<group>";
+		};
+		7195A6161E3B5F9700F763D7 /* FeedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7195A6171E3B5FB400F763D7 /* FeedViewController.h */,
+				7195A6181E3B5FB400F763D7 /* FeedViewController.m */,
+			);
+			path = FeedViewController;
+			sourceTree = "<group>";
+		};
+		7195A61A1E3B5FF100F763D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7195A61F1E3B718700F763D7 /* TweetModel.h */,
+				7195A6201E3B718700F763D7 /* TweetModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7195A61B1E3B5FF100F763D7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7195A61C1E3B600500F763D7 /* TwitterService.h */,
+				7195A61D1E3B600500F763D7 /* TwitterService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7195A6221E3B84F700F763D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7195A6231E3B876A00F763D7 /* TweetCell.h */,
+				7195A6241E3B876A00F763D7 /* TweetCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7195A6261E3B8BEB00F763D7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7195A6271E3B8C1600F763D7 /* TwitterViewModel.h */,
+				7195A6281E3B8C1600F763D7 /* TwitterViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		76945C249E1F197103DC78E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				186BD4A4AC7834C6686E2705 /* Pods-techtask-techery.debug.xcconfig */,
+				2DE243626372863EDAA737ED /* Pods-techtask-techery.release.xcconfig */,
+				38189C6F316FE813520ED893 /* Pods-techtask-techeryTests.debug.xcconfig */,
+				DAFB987C40E328471866584B /* Pods-techtask-techeryTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71168EDA1E37E98800F586A7 /* techtask-techery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71168EF51E37E98800F586A7 /* Build configuration list for PBXNativeTarget "techtask-techery" */;
+			buildPhases = (
+				CC7EE0B65387DED3264CDC8C /* [CP] Check Pods Manifest.lock */,
+				71168ED71E37E98800F586A7 /* Sources */,
+				71168ED81E37E98800F586A7 /* Frameworks */,
+				71168ED91E37E98800F586A7 /* Resources */,
+				DDAFEBB5C58B5D462A0740CF /* [CP] Embed Pods Frameworks */,
+				9E6BC741BF0F562CD6F26C47 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "techtask-techery";
+			productName = "techtask-techery";
+			productReference = 71168EDB1E37E98800F586A7 /* techtask-techery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7188E6701E49ED3600CFB0A9 /* techtask-techeryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7188E67A1E49ED3600CFB0A9 /* Build configuration list for PBXNativeTarget "techtask-techeryTests" */;
+			buildPhases = (
+				A73EB463735BB747A103CB2A /* [CP] Check Pods Manifest.lock */,
+				7188E66D1E49ED3600CFB0A9 /* Sources */,
+				7188E66E1E49ED3600CFB0A9 /* Frameworks */,
+				7188E66F1E49ED3600CFB0A9 /* Resources */,
+				82E2F75DCDB523AC3EF4BB25 /* [CP] Embed Pods Frameworks */,
+				9F2E246BA17CA361E749F19D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7188E6771E49ED3600CFB0A9 /* PBXTargetDependency */,
+			);
+			name = "techtask-techeryTests";
+			productName = "techtask-techeryTests";
+			productReference = 7188E6711E49ED3600CFB0A9 /* techtask-techeryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71168ED31E37E98800F586A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Timur Piriev";
+				TargetAttributes = {
+					71168EDA1E37E98800F586A7 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					7188E6701E49ED3600CFB0A9 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71168EDA1E37E98800F586A7;
+					};
+				};
+			};
+			buildConfigurationList = 71168ED61E37E98800F586A7 /* Build configuration list for PBXProject "techtask-techery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71168ED21E37E98800F586A7;
+			productRefGroup = 71168EDC1E37E98800F586A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71168EDA1E37E98800F586A7 /* techtask-techery */,
+				7188E6701E49ED3600CFB0A9 /* techtask-techeryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71168ED91E37E98800F586A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71168EF11E37E98800F586A7 /* LaunchScreen.storyboard in Resources */,
+				71168EEE1E37E98800F586A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7188E66F1E49ED3600CFB0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82E2F75DCDB523AC3EF4BB25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-techtask-techeryTests/Pods-techtask-techeryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E6BC741BF0F562CD6F26C47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-techtask-techery/Pods-techtask-techery-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F2E246BA17CA361E749F19D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-techtask-techeryTests/Pods-techtask-techeryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A73EB463735BB747A103CB2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC7EE0B65387DED3264CDC8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDAFEBB5C58B5D462A0740CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-techtask-techery/Pods-techtask-techery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71168ED71E37E98800F586A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7195A6191E3B5FB400F763D7 /* FeedViewController.m in Sources */,
+				71168EE31E37E98800F586A7 /* AppDelegate.m in Sources */,
+				71168EE01E37E98800F586A7 /* main.m in Sources */,
+				71168EEC1E37E98800F586A7 /* techtask_techery.xcdatamodeld in Sources */,
+				7195A61E1E3B600500F763D7 /* TwitterService.m in Sources */,
+				710D18EE1E45F35C00ACC53F /* RootViewController.m in Sources */,
+				7195A6291E3B8C1600F763D7 /* TwitterViewModel.m in Sources */,
+				7195A6211E3B718700F763D7 /* TweetModel.m in Sources */,
+				7195A6251E3B876A00F763D7 /* TweetCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7188E66D1E49ED3600CFB0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7188E6741E49ED3600CFB0A9 /* techtask_techeryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7188E6771E49ED3600CFB0A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71168EDA1E37E98800F586A7 /* techtask-techery */;
+			targetProxy = 7188E6761E49ED3600CFB0A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71168EEF1E37E98800F586A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71168EF01E37E98800F586A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71168EF31E37E98800F586A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71168EF41E37E98800F586A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71168EF61E37E98800F586A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 186BD4A4AC7834C6686E2705 /* Pods-techtask-techery.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "techtask-techery/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ptb.techtask-techery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71168EF71E37E98800F586A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE243626372863EDAA737ED /* Pods-techtask-techery.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "techtask-techery/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ptb.techtask-techery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7188E6781E49ED3600CFB0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38189C6F316FE813520ED893 /* Pods-techtask-techeryTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "techtask-techeryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ptb.techtask-techeryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/techtask-techery.app/techtask-techery";
+			};
+			name = Debug;
+		};
+		7188E6791E49ED3600CFB0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAFB987C40E328471866584B /* Pods-techtask-techeryTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "techtask-techeryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ptb.techtask-techeryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/techtask-techery.app/techtask-techery";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71168ED61E37E98800F586A7 /* Build configuration list for PBXProject "techtask-techery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71168EF31E37E98800F586A7 /* Debug */,
+				71168EF41E37E98800F586A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71168EF51E37E98800F586A7 /* Build configuration list for PBXNativeTarget "techtask-techery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71168EF61E37E98800F586A7 /* Debug */,
+				71168EF71E37E98800F586A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7188E67A1E49ED3600CFB0A9 /* Build configuration list for PBXNativeTarget "techtask-techeryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7188E6781E49ED3600CFB0A9 /* Debug */,
+				7188E6791E49ED3600CFB0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		71168EEA1E37E98800F586A7 /* techtask_techery.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				71168EEB1E37E98800F586A7 /* techtask_techery.xcdatamodel */,
+			);
+			currentVersion = 71168EEB1E37E98800F586A7 /* techtask_techery.xcdatamodel */;
+			path = techtask_techery.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 71168ED31E37E98800F586A7 /* Project object */;
+}
