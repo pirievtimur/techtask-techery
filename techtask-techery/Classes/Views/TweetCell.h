@@ -16,6 +16,4 @@
 - (void)updateWithTweetModel:(TweetModel *)tweetModel;
 + (NSString *)identifier;
 
-
-
 @end

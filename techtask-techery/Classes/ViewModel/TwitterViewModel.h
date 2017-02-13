@@ -12,15 +12,13 @@
 
 @interface TwitterViewModel : NSObject
 
-- (instancetype)initWithTwitterService:(TwitterService *)service userName:(NSString *)name;
-
 @property (nonatomic, strong) NSArray <TweetModel *>* tweets;
 @property (nonatomic, strong) RACCommand *loadTweetsCommand;
 @property (nonatomic, strong) RACCommand *reloadTweetsCommand;
 @property (nonatomic, strong) NSString *twitterUser;
-
 @property (nonatomic, assign) BOOL isAbleToPost;
 
+- (instancetype)initWithTwitterService:(TwitterService *)service userName:(NSString *)name;
 - (RACSignal *)updateStatusWithText:(NSString *)text;
 
 @end

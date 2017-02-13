@@ -13,7 +13,6 @@
 
 - (RACSignal *)loadTweetsFor:(NSString *)userId count:(NSInteger)count before:(NSString *)tweetId;
 - (RACSignal *)updateStatus:(NSString *)status;
-
 - (RACSignal *)authorize;
 
 @end
