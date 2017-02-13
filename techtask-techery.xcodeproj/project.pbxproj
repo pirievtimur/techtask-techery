@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		710D18EA1E45CB8C00ACC53F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710D18E91E45CB8C00ACC53F /* SystemConfiguration.framework */; };
 		710D18EE1E45F35C00ACC53F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710D18ED1E45F35C00ACC53F /* RootViewController.m */; };
+		711198711E50C29B005CBEBF /* TweetModelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 711198701E50C29B005CBEBF /* TweetModelSpec.m */; };
+		711198751E50C42F005CBEBF /* JSONLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 711198741E50C42F005CBEBF /* JSONLoader.m */; };
+		711198771E50C691005CBEBF /* TweetModel.json in Resources */ = {isa = PBXBuildFile; fileRef = 711198761E50C691005CBEBF /* TweetModel.json */; };
+		7111987B1E50CB0F005CBEBF /* TwitterViewModelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7111987A1E50CB0F005CBEBF /* TwitterViewModelSpec.m */; };
+		7111987D1E50D24C005CBEBF /* TweetCellSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7111987C1E50D24C005CBEBF /* TweetCellSpec.m */; };
 		71168EE01E37E98800F586A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71168EDF1E37E98800F586A7 /* main.m */; };
 		71168EE31E37E98800F586A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71168EE21E37E98800F586A7 /* AppDelegate.m */; };
 		71168EEC1E37E98800F586A7 /* techtask_techery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71168EEA1E37E98800F586A7 /* techtask_techery.xcdatamodeld */; };
 		71168EEE1E37E98800F586A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71168EED1E37E98800F586A7 /* Assets.xcassets */; };
 		71168EF11E37E98800F586A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71168EEF1E37E98800F586A7 /* LaunchScreen.storyboard */; };
-		7188E6741E49ED3600CFB0A9 /* techtask_techeryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7188E6731E49ED3600CFB0A9 /* techtask_techeryTests.m */; };
+		7188E6741E49ED3600CFB0A9 /* RootViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7188E6731E49ED3600CFB0A9 /* RootViewControllerSpec.m */; };
 		7195A6191E3B5FB400F763D7 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7195A6181E3B5FB400F763D7 /* FeedViewController.m */; };
 		7195A61E1E3B600500F763D7 /* TwitterService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7195A61D1E3B600500F763D7 /* TwitterService.m */; };
 		7195A6211E3B718700F763D7 /* TweetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7195A6201E3B718700F763D7 /* TweetModel.m */; };
@@ -42,6 +47,12 @@
 		710D18E91E45CB8C00ACC53F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		710D18EC1E45F35C00ACC53F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		710D18ED1E45F35C00ACC53F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		711198701E50C29B005CBEBF /* TweetModelSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetModelSpec.m; sourceTree = "<group>"; };
+		711198731E50C42F005CBEBF /* JSONLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONLoader.h; sourceTree = "<group>"; };
+		711198741E50C42F005CBEBF /* JSONLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONLoader.m; sourceTree = "<group>"; };
+		711198761E50C691005CBEBF /* TweetModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TweetModel.json; sourceTree = "<group>"; };
+		7111987A1E50CB0F005CBEBF /* TwitterViewModelSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewModelSpec.m; sourceTree = "<group>"; };
+		7111987C1E50D24C005CBEBF /* TweetCellSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetCellSpec.m; sourceTree = "<group>"; };
 		71168EDB1E37E98800F586A7 /* techtask-techery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "techtask-techery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71168EDF1E37E98800F586A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		71168EE11E37E98800F586A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,7 +62,7 @@
 		71168EF01E37E98800F586A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71168EF21E37E98800F586A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7188E6711E49ED3600CFB0A9 /* techtask-techeryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "techtask-techeryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7188E6731E49ED3600CFB0A9 /* techtask_techeryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = techtask_techeryTests.m; sourceTree = "<group>"; };
+		7188E6731E49ED3600CFB0A9 /* RootViewControllerSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewControllerSpec.m; sourceTree = "<group>"; };
 		7188E6751E49ED3600CFB0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7195A6171E3B5FB400F763D7 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
 		7195A6181E3B5FB400F763D7 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
@@ -105,6 +116,15 @@
 				710D18ED1E45F35C00ACC53F /* RootViewController.m */,
 			);
 			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		711198721E50C41B005CBEBF /* TestUtils */ = {
+			isa = PBXGroup;
+			children = (
+				711198731E50C42F005CBEBF /* JSONLoader.h */,
+				711198741E50C42F005CBEBF /* JSONLoader.m */,
+			);
+			path = TestUtils;
 			sourceTree = "<group>";
 		};
 		71168ED21E37E98800F586A7 = {
@@ -174,8 +194,13 @@
 		7188E6721E49ED3600CFB0A9 /* techtask-techeryTests */ = {
 			isa = PBXGroup;
 			children = (
-				7188E6731E49ED3600CFB0A9 /* techtask_techeryTests.m */,
+				711198721E50C41B005CBEBF /* TestUtils */,
+				7188E6731E49ED3600CFB0A9 /* RootViewControllerSpec.m */,
+				711198701E50C29B005CBEBF /* TweetModelSpec.m */,
+				7111987A1E50CB0F005CBEBF /* TwitterViewModelSpec.m */,
+				711198761E50C691005CBEBF /* TweetModel.json */,
 				7188E6751E49ED3600CFB0A9 /* Info.plist */,
+				7111987C1E50D24C005CBEBF /* TweetCellSpec.m */,
 			);
 			path = "techtask-techeryTests";
 			sourceTree = "<group>";
@@ -333,6 +358,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				711198771E50C691005CBEBF /* TweetModel.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +478,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7188E6741E49ED3600CFB0A9 /* techtask_techeryTests.m in Sources */,
+				711198751E50C42F005CBEBF /* JSONLoader.m in Sources */,
+				711198711E50C29B005CBEBF /* TweetModelSpec.m in Sources */,
+				7188E6741E49ED3600CFB0A9 /* RootViewControllerSpec.m in Sources */,
+				7111987D1E50D24C005CBEBF /* TweetCellSpec.m in Sources */,
+				7111987B1E50CB0F005CBEBF /* TwitterViewModelSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

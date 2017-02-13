@@ -11,8 +11,11 @@
 
 @interface TweetCell : UITableViewCell
 
-- (void)updateWithTweetModel:(TweetModel *)tweetModel;
+@property (nonatomic, strong) UILabel *tweetText;
 
+- (void)updateWithTweetModel:(TweetModel *)tweetModel;
 + (NSString *)identifier;
+
+
 
 @end

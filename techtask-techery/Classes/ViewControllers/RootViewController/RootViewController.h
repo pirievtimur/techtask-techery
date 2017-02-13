@@ -10,4 +10,7 @@
 
 @interface RootViewController : UIViewController
 
+@property (nonatomic, strong) UITextField *usernameTextField;
+@property (nonatomic, strong) UIButton *nextButton;
+
 @end

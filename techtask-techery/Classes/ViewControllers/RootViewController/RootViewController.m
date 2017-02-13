@@ -16,9 +16,6 @@
 
 @interface RootViewController ()
 
-@property (nonatomic, strong) UITextField *usernameTextField;
-@property (nonatomic, strong) UIButton *nextButton;
-
 @end
 
 @implementation RootViewController
@@ -46,6 +43,7 @@
     self.usernameTextField = [[UITextField alloc] initWithFrame:CGRectZero];
     self.usernameTextField.borderStyle = UITextBorderStyleRoundedRect;
     self.usernameTextField.autocorrectionType = UITextAutocorrectionTypeNo;
+    self.usernameTextField.placeholder = @"Twitter user";
     
     [self.view addSubview:self.usernameTextField];
     [self.usernameTextField mas_makeConstraints:^(MASConstraintMaker *make) {

@@ -9,12 +9,6 @@
 #import "TweetCell.h"
 #import <Masonry/Masonry.h>
 
-@interface TweetCell()
-
-@property (nonatomic, strong) UILabel *tweetText;
-
-@end
-
 @implementation TweetCell
 
 - (instancetype)initWithFrame:(CGRect)frame {
